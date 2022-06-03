@@ -16,6 +16,10 @@
 		0A7CF7432820AEB40072BFE7 /* TaskManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7CF7422820AEB40072BFE7 /* TaskManagerTests.swift */; };
 		0A7CF74D2820AEB40072BFE7 /* TaskManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7CF74C2820AEB40072BFE7 /* TaskManagerUITests.swift */; };
 		0A7CF74F2820AEB40072BFE7 /* TaskManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7CF74E2820AEB40072BFE7 /* TaskManagerUITestsLaunchTests.swift */; };
+		0A7CF75E2820B00E0072BFE7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7CF75D2820B00E0072BFE7 /* Home.swift */; };
+		0A7CF7602820B4950072BFE7 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7CF75F2820B4950072BFE7 /* TaskViewModel.swift */; };
+		0A7CF7622820BE6A0072BFE7 /* AddNewTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7CF7612820BE6A0072BFE7 /* AddNewTask.swift */; };
+		0A7CF7642820F36C0072BFE7 /* DynamicFilteredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7CF7632820F36C0072BFE7 /* DynamicFilteredView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,10 @@
 		0A7CF7482820AEB40072BFE7 /* TaskManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A7CF74C2820AEB40072BFE7 /* TaskManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManagerUITests.swift; sourceTree = "<group>"; };
 		0A7CF74E2820AEB40072BFE7 /* TaskManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0A7CF75D2820B00E0072BFE7 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		0A7CF75F2820B4950072BFE7 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		0A7CF7612820BE6A0072BFE7 /* AddNewTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTask.swift; sourceTree = "<group>"; };
+		0A7CF7632820F36C0072BFE7 /* DynamicFilteredView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicFilteredView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,8 @@
 		0A7CF72B2820AEB00072BFE7 /* TaskManager */ = {
 			isa = PBXGroup;
 			children = (
+				0A7CF75C2820AFF80072BFE7 /* ViewModel */,
+				0A7CF75B2820AFD40072BFE7 /* View */,
 				0A7CF72C2820AEB00072BFE7 /* TaskManagerApp.swift */,
 				0A7CF72E2820AEB00072BFE7 /* ContentView.swift */,
 				0A7CF7302820AEB40072BFE7 /* Assets.xcassets */,
@@ -131,6 +141,24 @@
 				0A7CF74E2820AEB40072BFE7 /* TaskManagerUITestsLaunchTests.swift */,
 			);
 			path = TaskManagerUITests;
+			sourceTree = "<group>";
+		};
+		0A7CF75B2820AFD40072BFE7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A7CF75D2820B00E0072BFE7 /* Home.swift */,
+				0A7CF7612820BE6A0072BFE7 /* AddNewTask.swift */,
+				0A7CF7632820F36C0072BFE7 /* DynamicFilteredView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A7CF75C2820AFF80072BFE7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0A7CF75F2820B4950072BFE7 /* TaskViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,7 +292,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A7CF7362820AEB40072BFE7 /* Persistence.swift in Sources */,
+				0A7CF7602820B4950072BFE7 /* TaskViewModel.swift in Sources */,
 				0A7CF72F2820AEB00072BFE7 /* ContentView.swift in Sources */,
+				0A7CF7642820F36C0072BFE7 /* DynamicFilteredView.swift in Sources */,
+				0A7CF75E2820B00E0072BFE7 /* Home.swift in Sources */,
+				0A7CF7622820BE6A0072BFE7 /* AddNewTask.swift in Sources */,
 				0A7CF7392820AEB40072BFE7 /* TaskManager.xcdatamodeld in Sources */,
 				0A7CF72D2820AEB00072BFE7 /* TaskManagerApp.swift in Sources */,
 			);
